@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\cliente.h
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\compra.cpp
+	<iostream>
+	"Compra.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\compra.h
+	"Fecha.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\fecha.h
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallecompra.cpp
+	<iostream>
+	"DetalleCompra.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallecompra.h
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallepedido.cpp
+	<iostream>
+	"DetallePedido.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallepedido.h
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\empleado.cpp
+	<iostream>
+	"Empleado.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\empleado.h
+	"Fecha.h"
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\main.cpp
+	"menus.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\menus.h
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\menus.cpp
+	<iostream>
+	<cstdio>
+	"Fecha.h"
+	"Producto.h"
+	"Proveedor.h"
+	"Cliente.h"
+	"Empleado.h"
+	"Servicio.h"
+	"Compra.h"
+	"DetalleCompra.h"
+	"PedidoCliente.h"
+	"DetallePedido.h"
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\producto.h
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\proveedor.h
+
+1762085910 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\servicio.h
+
+1762087810 c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\pedidocliente.h
+	<iostream>
+	"Fecha.h"
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\producto.cpp
+	<iostream>
+	<cstring>
+	"Producto.h"
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\proveedor.cpp
+	<iostream>
+	<cstring>
+	"Proveedor.h"
+
+1762085910 source:c:\users\braia\downloads\proyecto-cerrajeria-grupo5-main\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\servicio.cpp
+	<iostream>
+	"Servicio.h"
+
