@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cerrajeria" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cerrajeria" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cerrajeria" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Cliente.cpp" />
+		<Unit filename="../Cliente.h" />
+		<Unit filename="../Compra.cpp" />
+		<Unit filename="../Compra.h" />
+		<Unit filename="../DetalleCompra.cpp" />
+		<Unit filename="../DetalleCompra.h" />
+		<Unit filename="../DetallePedido.cpp" />
+		<Unit filename="../DetallePedido.h" />
+		<Unit filename="../Empleado.cpp" />
+		<Unit filename="../Empleado.h" />
+		<Unit filename="../Fecha.cpp" />
+		<Unit filename="../Fecha.h" />
+		<Unit filename="../PedidoCliente.cpp" />
+		<Unit filename="../PedidoCliente.h" />
+		<Unit filename="../Producto.cpp" />
+		<Unit filename="../Producto.h" />
+		<Unit filename="../Proveedor.cpp" />
+		<Unit filename="../Proveedor.h" />
+		<Unit filename="../Servicio.cpp" />
+		<Unit filename="../Servicio.h" />
+		<Unit filename="../main.cpp" />
+		<Unit filename="../menus.cpp" />
+		<Unit filename="../menus.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
