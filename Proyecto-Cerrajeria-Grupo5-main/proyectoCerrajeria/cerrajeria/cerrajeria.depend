@@ -441,3 +441,103 @@
 	<iostream>
 	"Fecha.h"
 
+1763661444 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\cliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Cliente.h"
+
+1763668459 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\cliente.h
+
+1763663093 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\compra.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Compra.h"
+
+1763668459 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\compra.h
+	"Fecha.h"
+
+1763668459 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\fecha.h
+
+1763663278 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallecompra.cpp
+	<iostream>
+	<limits>
+	"DetalleCompra.h"
+
+1763668459 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallecompra.h
+
+1763663715 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallepedido.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"DetallePedido.h"
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\detallepedido.h
+
+1763662976 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\empleado.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Empleado.h"
+
+1763668459 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\empleado.h
+	"Fecha.h"
+
+1763668092 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1763609755 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\main.cpp
+	"menus.h"
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\menus.h
+
+1763668303 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\menus.cpp
+	<iostream>
+	<cstdio>
+	"Fecha.h"
+	"Producto.h"
+	"Proveedor.h"
+	"Cliente.h"
+	"Empleado.h"
+	"Servicio.h"
+	"Compra.h"
+	"DetalleCompra.h"
+	"PedidoCliente.h"
+	"DetallePedido.h"
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\producto.h
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\proveedor.h
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\servicio.h
+
+1763668559 c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\pedidocliente.h
+	"Fecha.h"
+
+1763668356 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\pedidocliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"PedidoCliente.h"
+
+1763668356 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\producto.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	<cstring>
+	"Producto.h"
+
+1763668388 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\proveedor.cpp
+	<iostream>
+	<cstring>
+	"Proveedor.h"
+	<limits>
+
+1763668402 source:c:\users\neptuno\onedrive\escritorio\proyecto-cerrajeria-grupo5-main\proyectocerrajeria\servicio.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Servicio.h"
+
