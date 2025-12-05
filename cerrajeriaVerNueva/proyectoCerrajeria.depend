@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1764897032 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientearchivo.cpp
+	"ClienteArchivo.h"
+	<cstdio>
+
+1764896741 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientearchivo.h
+	<string>
+	"Cliente.h"
+
+1764896605 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\cliente.h
+
+1764897086 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientemanager.cpp
+	<iostream>
+	"ClienteManager.h"
+
+1764897063 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientemanager.h
+	"ClienteArchivo.h"
+
+1764898035 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compra.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Compra.h"
+
+1764897893 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compra.h
+	"Fecha.h"
+
+1764896545 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\fecha.h
+
+1764898089 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compraarchivo.cpp
+	"CompraArchivo.h"
+	<cstdio>
+
+1764898070 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compraarchivo.h
+	<string>
+	"Compra.h"
+
+1764898139 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compramanager.cpp
+	<iostream>
+	"CompraManager.h"
+
+1764898116 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compramanager.h
+	"CompraArchivo.h"
+
+1764898185 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompra.cpp
+	<iostream>
+	<limits>
+	"DetalleCompra.h"
+
+1764898164 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompra.h
+
+1764898227 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompraarchivo.cpp
+	"DetalleCompraArchivo.h"
+	<cstdio>
+
+1764898209 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompraarchivo.h
+	<string>
+	"DetalleCompra.h"
+
+1764898264 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompramanager.cpp
+	<iostream>
+	"DetalleCompraManager.h"
+
+1764898243 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompramanager.h
+	"DetalleCompraArchivo.h"
+
+1764898530 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedido.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"DetallePedido.h"
+
+1764898432 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedido.h
+
+1764898568 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidoarchivo.cpp
+	"DetallePedidoArchivo.h"
+	<cstdio>
+
+1764898552 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidoarchivo.h
+	<string>
+	"DetallePedido.h"
+
+1764898605 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidomanager.cpp
+	<iostream>
+	"DetallePedidoManager.h"
+
+1764898590 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidomanager.h
+	"DetallePedidoArchivo.h"
+
+1764897608 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleado.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Empleado.h"
+
+1764897581 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleado.h
+	"Fecha.h"
+
+1764897675 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadoarchivo.cpp
+	"EmpleadoArchivo.h"
+	<cstdio>
+
+1764897651 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadoarchivo.h
+	<string>
+	"Empleado.h"
+
+1764897718 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadomanager.cpp
+	<iostream>
+	"EmpleadoManager.h"
+
+1764897694 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadomanager.h
+	"EmpleadoArchivo.h"
+
+1764896566 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1764898794 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\main.cpp
+	"menus.h"
+
+1764898624 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\menus.h
+
+1764898743 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\menus.cpp
+	<iostream>
+	"ProductoManager.h"
+	"ProveedorManager.h"
+	"ClienteManager.h"
+	"EmpleadoManager.h"
+	"ServicioManager.h"
+	"CompraManager.h"
+	"DetalleCompraManager.h"
+	"PedidoClienteManager.h"
+	"DetallePedidoManager.h"
+	"menus.h"
+
+1764897403 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productomanager.h
+	"ProductoArchivo.h"
+
+1764897367 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productoarchivo.h
+	<string>
+	"Producto.h"
+
+1764897317 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\producto.h
+
+1764897264 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedormanager.h
+	"ProveedorArchivo.h"
+
+1764897167 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedorarchivo.h
+	<string>
+	"Proveedor.h"
+
+1764897111 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedor.h
+
+1764897856 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\serviciomanager.h
+	"ServicioArchivo.h"
+
+1764897810 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicioarchivo.h
+	<string>
+	"Servicio.h"
+
+1764897751 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicio.h
+
+1764898393 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientemanager.h
+	"PedidoClienteArchivo.h"
+
+1764898349 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientearchivo.h
+	<string>
+	"PedidoCliente.h"
+
+1764898299 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidocliente.h
+	"Fecha.h"
+
+1764898323 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidocliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"PedidoCliente.h"
+
+1764898369 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientearchivo.cpp
+	"PedidoClienteArchivo.h"
+	<cstdio>
+
+1764898413 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientemanager.cpp
+	<iostream>
+	"PedidoClienteManager.h"
+
+1764897343 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\producto.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	<cstring>
+	"Producto.h"
+
+1764897388 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productoarchivo.cpp
+	"ProductoArchivo.h"
+	<cstdio>
+
+1764897528 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productomanager.cpp
+	<iostream>
+	"ProductoManager.h"
+
+1764897142 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedor.cpp
+	<iostream>
+	<cstring>
+	<limits>
+	<cstdio>
+	"Proveedor.h"
+
+1764897237 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedorarchivo.cpp
+	"ProveedorArchivo.h"
+	<cstdio>
+
+1764897290 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedormanager.cpp
+	<iostream>
+	"ProveedorManager.h"
+
+1764897779 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicio.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Servicio.h"
+
+1764897827 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicioarchivo.cpp
+	"ServicioArchivo.h"
+	<cstdio>
+
+1764897877 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\serviciomanager.cpp
+	<iostream>
+	"ServicioManager.h"
+
+1764896685 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\cliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Cliente.h"
+
