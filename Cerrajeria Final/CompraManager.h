@@ -4,14 +4,15 @@
 #include "CompraArchivo.h"
 
 class CompraManager {
+private:
+    CompraArchivo _archivo;
+
 public:
     CompraManager();
+
     void altaCompra();
     void listarCompras();
     bool bajaCompra(int id);
-
-private:
-    CompraArchivo _repo;
 };
 
 #endif

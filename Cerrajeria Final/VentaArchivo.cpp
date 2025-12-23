@@ -1,33 +1,34 @@
 #include <cstdio>
 #include <cstring>
-#include "CompraArchivo.h"
+#include "VentaArchivo.h"
 
-CompraArchivo::CompraArchivo(const char* nombre) {
+VentaArchivo::VentaArchivo(const char* nombre) {
     strcpy(_nombre, nombre);
 }
 
-bool CompraArchivo::guardar(const Compra& reg) {
+bool VentaArchivo::guardar(const Venta& reg) {
     FILE* p = fopen(_nombre, "ab");
     if (p == NULL) return false;
 
-    bool ok = fwrite(&reg, sizeof(Compra), 1, p);
+    bool ok = fwrite(&reg, sizeof(Venta), 1, p);
     fclose(p);
+
     return ok;
 }
 
-Compra CompraArchivo::leer(int pos) {
-    Compra reg;
+Venta VentaArchivo::leer(int pos) {
+    Venta reg;
     FILE* p = fopen(_nombre, "rb");
     if (p == NULL) return reg;
 
-    fseek(p, pos * sizeof(Compra), SEEK_SET);
-    fread(&reg, sizeof(Compra), 1, p);
+    fseek(p, pos * sizeof(Venta), SEEK_SET);
+    fread(&reg, sizeof(Venta), 1, p);
     fclose(p);
 
     return reg;
 }
 
-int CompraArchivo::getCantidadRegistros() {
+int VentaArchivo::getCantidadRegistros() {
     FILE* p = fopen(_nombre, "rb");
     if (p == NULL) return 0;
 
@@ -35,6 +36,5 @@ int CompraArchivo::getCantidadRegistros() {
     long bytes = ftell(p);
     fclose(p);
 
-    return (int)(bytes / sizeof(Compra));
+    return (int)(bytes / sizeof(Venta));
 }
-

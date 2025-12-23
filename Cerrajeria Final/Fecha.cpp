@@ -29,7 +29,7 @@ void Fecha::Cargar(){
         cin >> d;
         cout << "Mes: ";
         cin >> m;
-        cout << "Anio: ";
+        cout << "Año: ";
         cin >> a;
 
         if(cin.fail()){

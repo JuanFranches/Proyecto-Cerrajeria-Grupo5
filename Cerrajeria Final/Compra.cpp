@@ -1,79 +1,50 @@
 #include <iostream>
-#include <limits>
-#include <cstdio>
 using namespace std;
+
 #include "Compra.h"
 
-Compra::Compra(){
-    idCompra=0; idProveedor=0; idEmpleado=0; fecha=Fecha(1,1,2000); total=0;
+
+Compra::Compra() {
+    _idCompra    = 0;
+    _idProveedor = 0;
+    _idEmpleado  = 0;
+    _total       = 0.0f;
+    _eliminado   = false;
 }
 
-void Compra::Cargar(){
-    while (true) {
-        cout << "ID compra: ";
-        if (cin >> idCompra) {
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-            bool repetido = false;
-            FILE* p = fopen("compras.dat", "rb");
-            if (p != NULL) {
-                Compra aux;
-                while (fread(&aux, sizeof(Compra), 1, p) == 1) {
-                    if (aux.idCompra == idCompra) {
-                        repetido = true;
-                        break;
-                    }
-                }
-                fclose(p);
-            }
+void Compra::Cargar() {
+    cout << "ID de la compra: ";
+    cin >> _idCompra;
 
-            if (repetido) {
-                cout << "Error: el ID " << idCompra
-                     << " ya esta asignado a otra compra.\n";
-                continue;
-            }
+    cout << "ID del proveedor: ";
+    cin >> _idProveedor;
 
-            break;
-        }
-        cout << "Error: el ID de compra debe ser un numero entero. Intentelo de nuevo.\n";
-        cin.clear();
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    }
+    cout << "ID del empleado: ";
+    cin >> _idEmpleado;
 
-    while (true) {
-        cout << "ID proveedor: ";
-        if (cin >> idProveedor) break;
-        cout << "Error: el ID de proveedor debe ser un numero entero. Intentelo de nuevo.\n";
-        cin.clear();
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    }
+    cout << "Fecha de la compra:\n";
+    _fecha.Cargar();
 
-    while (true) {
-        cout << "ID empleado: ";
-        if (cin >> idEmpleado) break;
-        cout << "Error: el ID de empleado debe ser un numero entero. Intentelo de nuevo.\n";
-        cin.clear();
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    }
+    cout << "Total de la compra: ";
+    cin >> _total;
 
-    cout << "Fecha de compra:\n";
-    fecha.Cargar();
-
-    while (true) {
-        cout << "Total: ";
-        if (cin >> total) break;
-        cout << "Error: el total debe ser numerico. Intentelo de nuevo.\n";
-        cin.clear();
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    }
+    _eliminado = false;
 }
 
-void Compra::Mostrar() const{
-    cout<<"Compra#"<<idCompra
-        <<" | Prov: "<<idProveedor
-        <<" | Emp: "<<idEmpleado
-        <<" | Fecha: "; fecha.Mostrar();
-    cout<<" | Total: $"<<total<<"\n";
+
+void Compra::Mostrar() const {
+    cout << "ID compra: "    << _idCompra    << endl;
+    cout << "ID proveedor: " << _idProveedor << endl;
+    cout << "ID empleado: "  << _idEmpleado  << endl;
+    cout << "Fecha: ";
+    _fecha.Mostrar();
+    cout << "Total: $"       << _total       << endl;
+    cout << "Eliminado: "    << (_eliminado ? "SI" : "NO") << endl;
+    cout << "------------------------------" << endl;
 }
 
-void Compra::setEliminado(bool e){ eliminado=e; }
+void Compra::setEliminado(bool e) {
+    _eliminado = e;
+}
+

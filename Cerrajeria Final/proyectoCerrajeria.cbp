@@ -52,6 +52,10 @@
 		<Unit filename="EmpleadoManager.h" />
 		<Unit filename="Fecha.cpp" />
 		<Unit filename="Fecha.h" />
+		<Unit filename="InformeManager.cpp" />
+		<Unit filename="InformeManager.h" />
+		<Unit filename="InformeVentasManager.cpp" />
+		<Unit filename="InformeVentasManager.h" />
 		<Unit filename="Producto.cpp" />
 		<Unit filename="Producto.h" />
 		<Unit filename="ProductoArchivo.cpp" />
@@ -70,6 +74,12 @@
 		<Unit filename="ServicioArchivo.h" />
 		<Unit filename="ServicioManager.cpp" />
 		<Unit filename="ServicioManager.h" />
+		<Unit filename="Venta.cpp" />
+		<Unit filename="Venta.h" />
+		<Unit filename="VentaArchivo.cpp" />
+		<Unit filename="VentaArchivo.h" />
+		<Unit filename="VentaManager.cpp" />
+		<Unit filename="VentaManager.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menus.cpp" />
 		<Unit filename="menus.h" />

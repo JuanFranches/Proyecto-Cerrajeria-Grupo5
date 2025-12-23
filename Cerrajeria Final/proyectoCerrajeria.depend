@@ -1,0 +1,207 @@
+# depslib dependency file v1.0
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\cliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Cliente.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\cliente.h
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\clientearchivo.cpp
+	"ClienteArchivo.h"
+	<cstdio>
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\clientearchivo.h
+	<string>
+	"Cliente.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\clientemanager.cpp
+	<iostream>
+	"ClienteManager.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\clientemanager.h
+	"ClienteArchivo.h"
+
+1766458145 source:c:\users\braia\onedrive\desktop\cerrajeria final\compra.cpp
+	<iostream>
+	"Compra.h"
+
+1766458136 c:\users\braia\onedrive\desktop\cerrajeria final\compra.h
+	<iostream>
+	"Fecha.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\fecha.h
+
+1766458167 source:c:\users\braia\onedrive\desktop\cerrajeria final\compraarchivo.cpp
+	<cstdio>
+	<cstring>
+	"CompraArchivo.h"
+
+1766458154 c:\users\braia\onedrive\desktop\cerrajeria final\compraarchivo.h
+	"Compra.h"
+
+1766458276 source:c:\users\braia\onedrive\desktop\cerrajeria final\compramanager.cpp
+	<iostream>
+	"CompraManager.h"
+
+1766458265 c:\users\braia\onedrive\desktop\cerrajeria final\compramanager.h
+	"CompraArchivo.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleado.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Empleado.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleado.h
+	"Fecha.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleadoarchivo.cpp
+	"EmpleadoArchivo.h"
+	<cstdio>
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleadoarchivo.h
+	<string>
+	"Empleado.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleadomanager.cpp
+	<iostream>
+	"EmpleadoManager.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleadomanager.h
+	"EmpleadoArchivo.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\main.cpp
+	"menus.h"
+
+1766460549 c:\users\braia\onedrive\desktop\cerrajeria final\menus.h
+
+1766461283 source:c:\users\braia\onedrive\desktop\cerrajeria final\menus.cpp
+	<iostream>
+	"ProductoManager.h"
+	"ProveedorManager.h"
+	"ClienteManager.h"
+	"EmpleadoManager.h"
+	"ServicioManager.h"
+	"CompraManager.h"
+	"menus.h"
+	"InformeManager.h"
+	"VentaManager.h"
+	"InformeVentasManager.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\productomanager.h
+	"ProductoArchivo.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\productoarchivo.h
+	<string>
+	"Producto.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\producto.h
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedormanager.h
+	"ProveedorArchivo.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedorarchivo.h
+	<string>
+	"Proveedor.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedor.h
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\serviciomanager.h
+	"ServicioArchivo.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\servicioarchivo.h
+	<string>
+	"Servicio.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\servicio.h
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\producto.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	<cstring>
+	"Producto.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\productoarchivo.cpp
+	"ProductoArchivo.h"
+	<cstdio>
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\productomanager.cpp
+	<iostream>
+	"ProductoManager.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedor.cpp
+	<iostream>
+	<cstring>
+	<limits>
+	<cstdio>
+	"Proveedor.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedorarchivo.cpp
+	"ProveedorArchivo.h"
+	<cstdio>
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedormanager.cpp
+	<iostream>
+	"ProveedorManager.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\servicio.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Servicio.h"
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\servicioarchivo.cpp
+	"ServicioArchivo.h"
+	<cstdio>
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\serviciomanager.cpp
+	<iostream>
+	"ServicioManager.h"
+
+1766461586 source:c:\users\braia\onedrive\desktop\cerrajeria final\informemanager.cpp
+	<iostream>
+	"InformeManager.h"
+	"Compra.h"
+
+1766461547 c:\users\braia\onedrive\desktop\cerrajeria final\informemanager.h
+	"CompraArchivo.h"
+	"Fecha.h"
+
+1766461828 source:c:\users\braia\onedrive\desktop\cerrajeria final\venta.cpp
+	<iostream>
+	"Venta.h"
+
+1766461912 c:\users\braia\onedrive\desktop\cerrajeria final\venta.h
+	<iostream>
+	"Fecha.h"
+
+1766460404 source:c:\users\braia\onedrive\desktop\cerrajeria final\ventaarchivo.cpp
+	<cstdio>
+	<cstring>
+	"VentaArchivo.h"
+
+1766460383 c:\users\braia\onedrive\desktop\cerrajeria final\ventaarchivo.h
+	"Venta.h"
+
+1766462580 source:c:\users\braia\onedrive\desktop\cerrajeria final\ventamanager.cpp
+	<iostream>
+	"VentaManager.h"
+
+1766461665 c:\users\braia\onedrive\desktop\cerrajeria final\ventamanager.h
+	"VentaArchivo.h"
+
+1766461196 source:c:\users\braia\onedrive\desktop\cerrajeria final\informeventasmanager.cpp
+	<iostream>
+	"InformeVentasManager.h"
+	"Venta.h"
+
+1766461171 c:\users\braia\onedrive\desktop\cerrajeria final\informeventasmanager.h
+	"VentaArchivo.h"
+	"Fecha.h"
+
