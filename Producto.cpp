@@ -4,6 +4,7 @@
 #include <cstring>
 using namespace std;
 #include "Producto.h"
+#include "rlutil.h"
 
 Producto::Producto(){
     idProducto=0; nombre[0]='\0'; descripcion[0]='\0'; tipo[0]='\0';
@@ -31,14 +32,18 @@ void Producto::Cargar(){
             }
 
             if (repetido) {
+                rlutil::setColor(rlutil::RED);
                 cout << "Error: el ID " << idProducto
                      << " ya esta asignado a otro producto.\n";
+                rlutil::setColor(rlutil::WHITE);
                 continue;
             }
 
             break;
         }
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el ID debe ser un numero entero. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -50,7 +55,9 @@ void Producto::Cargar(){
     while (true) {
         cout << "Precio: ";
         if (cin >> precio) break;
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el precio debe ser numerico. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -58,7 +65,9 @@ void Producto::Cargar(){
     while (true) {
         cout << "Stock: ";
         if (cin >> stock) break;
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el stock debe ser numerico. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -66,7 +75,9 @@ void Producto::Cargar(){
     while (true) {
         cout << "ID proveedor: ";
         if (cin >> idProveedor) break;
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el ID de proveedor debe ser un numero entero. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -75,8 +86,9 @@ void Producto::Cargar(){
 }
 
 void Producto::Mostrar() const{
+
+    cout << "---------------------------\n";
     if(eliminado){ cout<<"(Producto eliminado)\n"; return; }
-    cout<<"---------------------------\n";
     cout<<"ID: "<<idProducto<<"\n";
     cout<<"Nombre: "<<nombre<<"\n";
     cout<<"Descripcion: "<<descripcion<<"\n";

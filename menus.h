@@ -2,5 +2,6 @@
 #define MENUS_H
 
 void menuPrincipal();
-
+void menuInformes();
+void menuVentas();
 #endif

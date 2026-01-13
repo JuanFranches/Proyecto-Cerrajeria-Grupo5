@@ -18,6 +18,7 @@ public:
 
     int  getIdCliente() const { return idCliente; }
     bool getEliminado() const { return eliminado; }
+    void setEliminado(bool e);
 };
 
 #endif

@@ -3,6 +3,7 @@
 #include <cstdio>
 using namespace std;
 #include "Empleado.h"
+#include "rlutil.h"
 
 Empleado::Empleado(){
     idEmpleado=0; nombre[0]='\0'; apellido[0]='\0'; cargo[0]='\0';
@@ -29,14 +30,18 @@ void Empleado::Cargar(){
             }
 
             if (repetido) {
+                    rlutil::setColor(rlutil::RED);
                 cout << "Error: el ID " << idEmpleado
                      << " ya esta asignado a otro empleado.\n";
+                     rlutil::setColor(rlutil::WHITE);
                 continue;
             }
 
             break;
         }
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el ID debe ser un numero entero. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -48,7 +53,9 @@ void Empleado::Cargar(){
     while (true) {
         cout << "Sueldo: ";
         if (cin >> sueldo) break;
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el sueldo debe ser numerico. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -59,10 +66,18 @@ void Empleado::Cargar(){
     eliminado = false;
 }
 
-void Empleado::Mostrar() const{
-    if(eliminado){ cout<<"(Empleado eliminado)\n"; return; }
-    cout<<"Emp#"<<idEmpleado<<" - "<<apellido<<", "<<nombre
-        <<" | Cargo: "<<cargo
-        <<" | Sueldo: $"<<sueldo
-        <<" | Ingreso: "; fechaIngreso.Mostrar(); cout<<"\n";
+void Empleado::Mostrar() const {
+    if (eliminado) return;
+
+    cout << "---------------------------\n";
+    cout << "ID Empleado: " << idEmpleado << "\n";
+    cout << "Apellido: " << apellido << "\n";
+    cout << "Nombre: " << nombre << "\n";
+    cout << "Cargo: " << cargo << "\n";
+    cout << "Sueldo: $" << sueldo << "\n";
+    cout << "Fecha de ingreso: ";
+    fechaIngreso.Mostrar();
+    cout << "\n";
 }
+
+void Empleado::setEliminado(bool e){ eliminado=e; }

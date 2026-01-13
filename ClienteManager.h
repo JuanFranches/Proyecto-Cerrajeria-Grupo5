@@ -8,6 +8,7 @@ public:
     ClienteManager();
     void altaCliente();
     void listarClientes();
+    bool bajaCliente(int id);
 
 private:
     ClienteArchivo _repo;

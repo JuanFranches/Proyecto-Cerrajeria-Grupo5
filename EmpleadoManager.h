@@ -8,6 +8,7 @@ public:
     EmpleadoManager();
     void altaEmpleado();
     void listarEmpleados();
+    bool bajaEmpleado(int id);
 
 private:
     EmpleadoArchivo _repo;

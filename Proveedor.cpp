@@ -4,6 +4,7 @@
 #include <cstdio>
 using namespace std;
 #include "Proveedor.h"
+#include "rlutil.h"
 
 Proveedor::Proveedor(){
     idProveedor=0; nombre[0]='\0'; telefono[0]='\0';
@@ -31,7 +32,9 @@ void Proveedor::Cargar(){
             }
 
             if (repetido) {
+                rlutil::setColor(rlutil::RED);
                 cout << "Error: el ID " << idProveedor << " ya esta asignado a otro proveedor.\n";
+                rlutil::setColor(rlutil::WHITE);
                 cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 continue;
             }
@@ -39,8 +42,9 @@ void Proveedor::Cargar(){
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             break;
         }
-
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el ID debe ser un numero entero. Intentelo de nuevo.\n";
+        rlutil::setColor(rlutil::WHITE);
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -61,7 +65,9 @@ void Proveedor::Cargar(){
 
         if (ok) break;
 
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el telefono debe contener solo numeros (sin espacios ni guiones).\n";
+        rlutil::setColor(rlutil::WHITE);
     }
 
     cout << "Direccion: ";
@@ -81,20 +87,23 @@ void Proveedor::Cargar(){
 
         if (tieneArroba) break;
 
+        rlutil::setColor(rlutil::RED);
         cout << "Error: el email debe contener un @ (ej: usuario@dominio.com).\n";
+        rlutil::setColor(rlutil::WHITE);
     }
 
     eliminado = false;
 }
 
 void Proveedor::Mostrar() const{
+    cout << "---------------------------\n";
     if (eliminado) return;
     if (idProveedor == 0 || nombre[0] == '\0') return;
-
-    cout<<"Prov#"<<idProveedor<<" - "<<nombre
-        <<" | Tel: "<<telefono
-        <<" | Dir: "<<direccion
-        <<" | Email: "<<email<<"\n";
+    cout<<"ID: "<<idProveedor<<"\n";
+    cout<<"Nombre: "<<nombre<<"\n";
+    cout<<"Telefono: "<<telefono<<"\n";
+    cout<<"Direccion: "<<direccion<<"\n";
+    cout<<"Email: "<<email<<"\n";
 }
 
 int  Proveedor::getIdProveedor() const{ return idProveedor; }

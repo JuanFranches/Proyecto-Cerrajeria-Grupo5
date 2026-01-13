@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "Fecha.h"
+#include "rlutil.h"
 
 Fecha::Fecha(int d, int m, int a){
     if(fechaValida(d,m,a)){
@@ -21,34 +22,65 @@ bool Fecha::fechaValida(int d, int m, int a){
     return true;
 }
 
-void Fecha::Cargar(){
+void Fecha::Cargar() {
     int d, m, a;
 
-    do {
+    while (true) {
         cout << "Dia: ";
         cin >> d;
+
+        if (!cin.fail() && d >= 1 && d <= 31) {
+            break;
+        }
+
+        cin.clear();
+        cin.ignore(1000, '\n');
+        rlutil::setColor(rlutil::RED);
+        cout << "Entrada invalida. Intente nuevamente.\n\n";
+        rlutil::setColor(rlutil::WHITE);
+    }
+
+    while (true) {
         cout << "Mes: ";
         cin >> m;
+
+        if (!cin.fail() && m >= 1 && m <= 12) {
+            break;
+        }
+
+        cin.clear();
+        cin.ignore(1000, '\n');
+        rlutil::setColor(rlutil::RED);
+        cout << "Entrada invalida. Intente nuevamente.\n\n";
+        rlutil::setColor(rlutil::WHITE);
+    }
+
+    while (true) {
         cout << "Anio: ";
         cin >> a;
 
-        if(cin.fail()){
-            cin.clear();
-            cin.ignore(1000,'\n');
-            cout << "Entrada invalida. Intente nuevamente.\n\n";
-            continue;
+        if (!cin.fail() && a > 0) {
+            break;
         }
 
-        if(!fechaValida(d,m,a)){
-            cout << "Fecha invalida. Reingrese.\n\n";
-        }
+        cin.clear();
+        cin.ignore(1000, '\n');
+        rlutil::setColor(rlutil::RED);
+        cout << "Entrada invalida. Intente nuevamente.\n\n";
+        rlutil::setColor(rlutil::WHITE);
+    }
 
-    } while(!fechaValida(d,m,a));
+    if (!fechaValida(d, m, a)) {
+        cout << "\nFecha invalida. Reingrese todo.\n\n";
+        Cargar();
+        return;
+    }
 
     dia = d;
     mes = m;
     anio = a;
 }
+
 
 void Fecha::Mostrar() const{
     cout << dia << "/" << mes << "/" << anio;

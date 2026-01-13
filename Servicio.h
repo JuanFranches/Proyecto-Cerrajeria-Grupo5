@@ -15,6 +15,7 @@ public:
     void Mostrar() const;
 
     int  getIdServicio() const { return idServicio; }
+    void setEliminado(bool e);
     bool getEliminado() const { return eliminado; }
 };
 

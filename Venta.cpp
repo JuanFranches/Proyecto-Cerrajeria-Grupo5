@@ -1,38 +1,24 @@
 #include <iostream>
 using namespace std;
+
+#include "Venta.h"
 #include "rlutil.h"
-#include "Compra.h"
 
-
-Compra::Compra() {
-    _idCompra    = 0;
-    _idProveedor = 0;
-    _idEmpleado  = 0;
-    _total       = 0.0f;
-    _eliminado   = false;
+Venta::Venta() {
+    _idVenta    = 0;
+    _idCliente  = 0;
+    _idEmpleado = 0;
+    _total      = 0.0f;
+    _eliminado  = false;
 }
 
-
-void Compra::Cargar() {
-
-    while (true) {
-        cout << "ID de la compra: ";
-        cin >> _idCompra;
-
-        if (!cin.fail() && _idCompra > 0) break;
-
-        cin.clear();
-        cin.ignore(1000, '\n');
-        rlutil::setColor(rlutil::RED);
-        cout << "Entrada invalida. Intente nuevamente.\n\n";
-        rlutil::setColor(rlutil::WHITE);
-    }
+void Venta::Cargar() {
 
     while (true) {
-        cout << "ID del proveedor: ";
-        cin >> _idProveedor;
+        cout << "ID del cliente: ";
+        cin >> _idCliente;
 
-        if (!cin.fail() && _idProveedor > 0) break;
+        if (!cin.fail() && _idCliente > 0) break;
 
         cin.clear();
         cin.ignore(1000, '\n');
@@ -54,11 +40,11 @@ void Compra::Cargar() {
         rlutil::setColor(rlutil::WHITE);
     }
 
-    cout << "Fecha de la compra:\n";
+    cout << "Fecha de la venta:\n";
     _fecha.Cargar();
 
     while (true) {
-        cout << "Total de la compra: ";
+        cout << "Total de la venta: ";
         cin >> _total;
 
         if (!cin.fail() && _total >= 0) break;
@@ -73,19 +59,17 @@ void Compra::Cargar() {
     _eliminado = false;
 }
 
-
-void Compra::Mostrar() const {
+void Venta::Mostrar() const {
     cout << "------------------------------" << endl;
-    cout << "ID compra: "    << _idCompra    << endl;
-    cout << "ID proveedor: " << _idProveedor << endl;
-    cout << "ID empleado: "  << _idEmpleado  << endl;
+    cout << "ID venta: "    << _idVenta    << endl;
+    cout << "ID cliente: "  << _idCliente  << endl;
+    cout << "ID empleado: " << _idEmpleado << endl;
     cout << "Fecha: ";
     _fecha.Mostrar();
     cout << endl;
-    cout << "Total: $"       << _total       << endl;
+    cout << "Total: $"      << _total      << endl;
 }
 
-void Compra::setEliminado(bool e) {
+void Venta::setEliminado(bool e) {
     _eliminado = e;
 }
-

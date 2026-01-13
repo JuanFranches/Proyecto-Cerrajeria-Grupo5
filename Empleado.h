@@ -19,6 +19,7 @@ public:
     void Mostrar() const;
 
     int  getIdEmpleado() const { return idEmpleado; }
+    void setEliminado(bool e);
     bool getEliminado() const { return eliminado; }
 };
 

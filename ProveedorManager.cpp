@@ -1,26 +1,37 @@
 #include <iostream>
 using namespace std;
 #include "ProveedorManager.h"
+#include "rlutil.h"
 
 ProveedorManager::ProveedorManager(){}
 
 void ProveedorManager::altaProveedor(){
     Proveedor reg;
     cout << "\nALTA DE PROVEEDOR\n";
+    cout << "---------------------------\n";
     reg.Cargar();
     if(_repo.guardar(reg)){
-        cout << "Proveedor guardado en archivo.\n";
-    } else {
+        rlutil::setColor(rlutil::GREEN);
+        cout << endl;
+        cout << "PROVEEDOR GUARDADO EN ARCHIVO!!!\n";
+        rlutil::setColor(rlutil::WHITE);
+        } else {
+        rlutil::setColor(rlutil::RED);
         cout << "Error de apertura.\n";
-    }
+        rlutil::setColor(rlutil::WHITE);
+        }
 }
 
 void ProveedorManager::listarProveedores() {
     FILE* p = fopen("proveedores.dat", "rb");
     if (p == NULL) {
+        rlutil::setColor(rlutil::RED);
         cout << "No hay proveedores cargados.\n";
+        rlutil::setColor(rlutil::WHITE);
         return;
     }
+
+    cout << "LISTADO DE PROVEEDORES\n";
 
     Proveedor reg;
     bool hayActivos = false;
@@ -35,7 +46,9 @@ void ProveedorManager::listarProveedores() {
     fclose(p);
 
     if (!hayActivos) {
+        rlutil::setColor(rlutil::RED);
         cout << "No hay proveedores cargados.\n";
+        rlutil::setColor(rlutil::WHITE);
     }
 }
 

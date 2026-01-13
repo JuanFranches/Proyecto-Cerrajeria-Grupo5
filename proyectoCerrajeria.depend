@@ -1,126 +1,86 @@
 # depslib dependency file v1.0
-1764897032 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientearchivo.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\cliente.cpp
+	<iostream>
+	<limits>
+	<cstdio>
+	"Cliente.h"
+
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\cliente.h
+
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\clientearchivo.cpp
 	"ClienteArchivo.h"
 	<cstdio>
 
-1764896741 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientearchivo.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\clientearchivo.h
 	<string>
 	"Cliente.h"
 
-1764896605 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\cliente.h
-
-1764897086 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientemanager.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\clientemanager.cpp
 	<iostream>
 	"ClienteManager.h"
 
-1764897063 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\clientemanager.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\clientemanager.h
 	"ClienteArchivo.h"
 
-1764898035 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compra.cpp
+1766458145 source:c:\users\braia\onedrive\desktop\cerrajeria final\compra.cpp
 	<iostream>
-	<limits>
-	<cstdio>
 	"Compra.h"
 
-1764897893 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compra.h
+1766458136 c:\users\braia\onedrive\desktop\cerrajeria final\compra.h
+	<iostream>
 	"Fecha.h"
 
-1764896545 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\fecha.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\fecha.h
 
-1764898089 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compraarchivo.cpp
-	"CompraArchivo.h"
+1766458167 source:c:\users\braia\onedrive\desktop\cerrajeria final\compraarchivo.cpp
 	<cstdio>
+	<cstring>
+	"CompraArchivo.h"
 
-1764898070 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compraarchivo.h
-	<string>
+1766458154 c:\users\braia\onedrive\desktop\cerrajeria final\compraarchivo.h
 	"Compra.h"
 
-1764898139 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compramanager.cpp
+1766458276 source:c:\users\braia\onedrive\desktop\cerrajeria final\compramanager.cpp
 	<iostream>
 	"CompraManager.h"
 
-1764898116 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\compramanager.h
+1766458265 c:\users\braia\onedrive\desktop\cerrajeria final\compramanager.h
 	"CompraArchivo.h"
 
-1764898185 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompra.cpp
-	<iostream>
-	<limits>
-	"DetalleCompra.h"
-
-1764898164 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompra.h
-
-1764898227 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompraarchivo.cpp
-	"DetalleCompraArchivo.h"
-	<cstdio>
-
-1764898209 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompraarchivo.h
-	<string>
-	"DetalleCompra.h"
-
-1764898264 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompramanager.cpp
-	<iostream>
-	"DetalleCompraManager.h"
-
-1764898243 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallecompramanager.h
-	"DetalleCompraArchivo.h"
-
-1764898530 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedido.cpp
-	<iostream>
-	<limits>
-	<cstdio>
-	"DetallePedido.h"
-
-1764898432 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedido.h
-
-1764898568 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidoarchivo.cpp
-	"DetallePedidoArchivo.h"
-	<cstdio>
-
-1764898552 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidoarchivo.h
-	<string>
-	"DetallePedido.h"
-
-1764898605 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidomanager.cpp
-	<iostream>
-	"DetallePedidoManager.h"
-
-1764898590 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\detallepedidomanager.h
-	"DetallePedidoArchivo.h"
-
-1764897608 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleado.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleado.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	"Empleado.h"
 
-1764897581 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleado.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleado.h
 	"Fecha.h"
 
-1764897675 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadoarchivo.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleadoarchivo.cpp
 	"EmpleadoArchivo.h"
 	<cstdio>
 
-1764897651 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadoarchivo.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleadoarchivo.h
 	<string>
 	"Empleado.h"
 
-1764897718 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadomanager.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\empleadomanager.cpp
 	<iostream>
 	"EmpleadoManager.h"
 
-1764897694 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\empleadomanager.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\empleadomanager.h
 	"EmpleadoArchivo.h"
 
-1764896566 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\fecha.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\fecha.cpp
 	<iostream>
 	"Fecha.h"
 
-1764898794 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\main.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\main.cpp
 	"menus.h"
 
-1764898624 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\menus.h
+1766460549 c:\users\braia\onedrive\desktop\cerrajeria final\menus.h
 
-1764898743 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\menus.cpp
+1766461283 source:c:\users\braia\onedrive\desktop\cerrajeria final\menus.cpp
 	<iostream>
 	"ProductoManager.h"
 	"ProveedorManager.h"
@@ -128,240 +88,237 @@
 	"EmpleadoManager.h"
 	"ServicioManager.h"
 	"CompraManager.h"
-	"DetalleCompraManager.h"
-	"PedidoClienteManager.h"
-	"DetallePedidoManager.h"
 	"menus.h"
+	"InformeManager.h"
+	"VentaManager.h"
+	"InformeVentasManager.h"
 
-1764897403 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productomanager.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\productomanager.h
 	"ProductoArchivo.h"
 
-1764897367 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productoarchivo.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\productoarchivo.h
 	<string>
 	"Producto.h"
 
-1764897317 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\producto.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\producto.h
 
-1764897264 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedormanager.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedormanager.h
 	"ProveedorArchivo.h"
 
-1764897167 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedorarchivo.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedorarchivo.h
 	<string>
 	"Proveedor.h"
 
-1764897111 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedor.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\proveedor.h
 
-1764897856 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\serviciomanager.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\serviciomanager.h
 	"ServicioArchivo.h"
 
-1764897810 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicioarchivo.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\servicioarchivo.h
 	<string>
 	"Servicio.h"
 
-1764897751 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicio.h
+1766386444 c:\users\braia\onedrive\desktop\cerrajeria final\servicio.h
 
-1764898393 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientemanager.h
-	"PedidoClienteArchivo.h"
-
-1764898349 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientearchivo.h
-	<string>
-	"PedidoCliente.h"
-
-1764898299 c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidocliente.h
-	"Fecha.h"
-
-1764898323 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidocliente.cpp
-	<iostream>
-	<limits>
-	<cstdio>
-	"PedidoCliente.h"
-
-1764898369 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientearchivo.cpp
-	"PedidoClienteArchivo.h"
-	<cstdio>
-
-1764898413 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\pedidoclientemanager.cpp
-	<iostream>
-	"PedidoClienteManager.h"
-
-1764897343 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\producto.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\producto.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	<cstring>
 	"Producto.h"
 
-1764897388 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productoarchivo.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\productoarchivo.cpp
 	"ProductoArchivo.h"
 	<cstdio>
 
-1764897528 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\productomanager.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\productomanager.cpp
 	<iostream>
 	"ProductoManager.h"
 
-1764897142 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedor.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedor.cpp
 	<iostream>
 	<cstring>
 	<limits>
 	<cstdio>
 	"Proveedor.h"
 
-1764897237 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedorarchivo.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedorarchivo.cpp
 	"ProveedorArchivo.h"
 	<cstdio>
 
-1764897290 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\proveedormanager.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\proveedormanager.cpp
 	<iostream>
 	"ProveedorManager.h"
 
-1764897779 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicio.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\servicio.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	"Servicio.h"
 
-1764897827 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\servicioarchivo.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\servicioarchivo.cpp
 	"ServicioArchivo.h"
 	<cstdio>
 
-1764897877 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\serviciomanager.cpp
+1766386444 source:c:\users\braia\onedrive\desktop\cerrajeria final\serviciomanager.cpp
 	<iostream>
 	"ServicioManager.h"
 
-1764901763 source:c:\users\neptuno\onedrive\escritorio\proyectocerrajeriavfinal\proyectocerrajeria\cliente.cpp
+1766461586 source:c:\users\braia\onedrive\desktop\cerrajeria final\informemanager.cpp
+	<iostream>
+	"InformeManager.h"
+	"Compra.h"
+
+1766461547 c:\users\braia\onedrive\desktop\cerrajeria final\informemanager.h
+	"CompraArchivo.h"
+	"Fecha.h"
+
+1766461828 source:c:\users\braia\onedrive\desktop\cerrajeria final\venta.cpp
+	<iostream>
+	"Venta.h"
+
+1766461912 c:\users\braia\onedrive\desktop\cerrajeria final\venta.h
+	<iostream>
+	"Fecha.h"
+
+1766460404 source:c:\users\braia\onedrive\desktop\cerrajeria final\ventaarchivo.cpp
+	<cstdio>
+	<cstring>
+	"VentaArchivo.h"
+
+1766460383 c:\users\braia\onedrive\desktop\cerrajeria final\ventaarchivo.h
+	"Venta.h"
+
+1766462580 source:c:\users\braia\onedrive\desktop\cerrajeria final\ventamanager.cpp
+	<iostream>
+	"VentaManager.h"
+
+1766461665 c:\users\braia\onedrive\desktop\cerrajeria final\ventamanager.h
+	"VentaArchivo.h"
+
+1766461196 source:c:\users\braia\onedrive\desktop\cerrajeria final\informeventasmanager.cpp
+	<iostream>
+	"InformeVentasManager.h"
+	"Venta.h"
+
+1766461171 c:\users\braia\onedrive\desktop\cerrajeria final\informeventasmanager.h
+	"VentaArchivo.h"
+	"Fecha.h"
+
+1767036931 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\cliente.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	"Cliente.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\cliente.cpp
-	<iostream>
-	<limits>
-	<cstdio>
-	"Cliente.h"
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\cliente.h
 
-1765537732 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\cliente.h
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\clientearchivo.cpp
+1766507818 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\clientearchivo.cpp
 	"ClienteArchivo.h"
 	<cstdio>
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\clientearchivo.h
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\clientearchivo.h
 	<string>
 	"Cliente.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\clientemanager.cpp
+1768311414 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\clientemanager.cpp
 	<iostream>
 	"ClienteManager.h"
+	"rlutil.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\clientemanager.h
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\clientemanager.h
 	"ClienteArchivo.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compra.cpp
+1767033175 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compra.cpp
 	<iostream>
-	<limits>
-	<cstdio>
+	"rlutil.h"
 	"Compra.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compra.h
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compra.h
+	<iostream>
 	"Fecha.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\fecha.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\fecha.h
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compraarchivo.cpp
-	"CompraArchivo.h"
+1766507818 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compraarchivo.cpp
 	<cstdio>
+	<cstring>
+	"CompraArchivo.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compraarchivo.h
-	<string>
+1768313902 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compraarchivo.h
 	"Compra.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compramanager.cpp
+1768313911 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compramanager.cpp
 	<iostream>
 	"CompraManager.h"
+	"rlutil.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\compramanager.h
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\compramanager.h
 	"CompraArchivo.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompra.cpp
-	<iostream>
-	<limits>
-	"DetalleCompra.h"
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompra.h
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompraarchivo.cpp
-	"DetalleCompraArchivo.h"
-	<cstdio>
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompraarchivo.h
-	<string>
-	"DetalleCompra.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompramanager.cpp
-	<iostream>
-	"DetalleCompraManager.h"
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallecompramanager.h
-	"DetalleCompraArchivo.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedido.cpp
-	<iostream>
-	<limits>
-	<cstdio>
-	"DetallePedido.h"
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedido.h
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedidoarchivo.cpp
-	"DetallePedidoArchivo.h"
-	<cstdio>
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedidoarchivo.h
-	<string>
-	"DetallePedido.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedidomanager.cpp
-	<iostream>
-	"DetallePedidoManager.h"
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\detallepedidomanager.h
-	"DetallePedidoArchivo.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleado.cpp
+1767038475 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleado.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	"Empleado.h"
+	"rlutil.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleado.h
+1766507818 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleado.h
 	"Fecha.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleadoarchivo.cpp
+1766507818 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleadoarchivo.cpp
 	"EmpleadoArchivo.h"
 	<cstdio>
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleadoarchivo.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleadoarchivo.h
 	<string>
 	"Empleado.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleadomanager.cpp
+1767038326 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleadomanager.cpp
 	<iostream>
 	"EmpleadoManager.h"
+	"rlutil.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\empleadomanager.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\empleadomanager.h
 	"EmpleadoArchivo.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\fecha.cpp
+1767038763 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\fecha.cpp
+	<iostream>
+	"Fecha.h"
+	"rlutil.h"
+
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\informemanager.cpp
+	<iostream>
+	"InformeManager.h"
+	"Compra.h"
+
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\informemanager.h
+	"CompraArchivo.h"
+	"Fecha.h"
+
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\informeventasmanager.cpp
+	<iostream>
+	"InformeVentasManager.h"
+	"Venta.h"
+
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\informeventasmanager.h
+	"VentaArchivo.h"
+	"Fecha.h"
+
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\ventaarchivo.h
+	"Venta.h"
+
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\venta.h
 	<iostream>
 	"Fecha.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\main.cpp
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\main.cpp
 	"menus.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\menus.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\menus.h
 
-1766169601 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\menus.cpp
+1768313275 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\menus.cpp
 	<iostream>
 	"ProductoManager.h"
 	"ProveedorManager.h"
@@ -369,103 +326,118 @@
 	"EmpleadoManager.h"
 	"ServicioManager.h"
 	"CompraManager.h"
-	"DetalleCompraManager.h"
-	"PedidoClienteManager.h"
-	"DetallePedidoManager.h"
 	"menus.h"
+	"InformeManager.h"
+	"VentaManager.h"
+	"InformeVentasManager.h"
+	"rlutil.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\productomanager.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\productomanager.h
 	"ProductoArchivo.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\productoarchivo.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\productoarchivo.h
 	<string>
 	"Producto.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\producto.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\producto.h
 
-1766081675 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedormanager.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedormanager.h
 	"ProveedorArchivo.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedorarchivo.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedorarchivo.h
 	<string>
 	"Proveedor.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedor.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedor.h
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\serviciomanager.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\serviciomanager.h
 	"ServicioArchivo.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\servicioarchivo.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\servicioarchivo.h
 	<string>
 	"Servicio.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\servicio.h
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\servicio.h
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidoclientemanager.h
-	"PedidoClienteArchivo.h"
+1766507819 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\ventamanager.h
+	"VentaArchivo.h"
 
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidoclientearchivo.h
-	<string>
-	"PedidoCliente.h"
-
-1765477745 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidocliente.h
-	"Fecha.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidocliente.cpp
-	<iostream>
-	<limits>
-	<cstdio>
-	"PedidoCliente.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidoclientearchivo.cpp
-	"PedidoClienteArchivo.h"
-	<cstdio>
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\pedidoclientemanager.cpp
-	<iostream>
-	"PedidoClienteManager.h"
-
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\producto.cpp
+1768311414 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\producto.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	<cstring>
 	"Producto.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\productoarchivo.cpp
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\productoarchivo.cpp
 	"ProductoArchivo.h"
 	<cstdio>
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\productomanager.cpp
+1768311941 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\productomanager.cpp
 	<iostream>
 	"ProductoManager.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedor.cpp
+1768311941 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedor.cpp
 	<iostream>
 	<cstring>
 	<limits>
 	<cstdio>
 	"Proveedor.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedorarchivo.cpp
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedorarchivo.cpp
 	"ProveedorArchivo.h"
 	<cstdio>
 
-1766081675 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\proveedormanager.cpp
+1768311941 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\proveedormanager.cpp
 	<iostream>
 	"ProveedorManager.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\servicio.cpp
+1768311941 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\servicio.cpp
 	<iostream>
 	<limits>
 	<cstdio>
 	"Servicio.h"
+	"rlutil.h"
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\servicioarchivo.cpp
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\servicioarchivo.cpp
 	"ServicioArchivo.h"
 	<cstdio>
 
-1765477745 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\proyecto-cerrajeria-grupo5-main\cerrajeriavernueva\serviciomanager.cpp
+1768312111 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\serviciomanager.cpp
 	<iostream>
 	"ServicioManager.h"
+	"rlutil.h"
+
+1768316425 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\venta.cpp
+	<iostream>
+	"Venta.h"
+	"rlutil.h"
+
+1766507819 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\ventaarchivo.cpp
+	<cstdio>
+	<cstring>
+	"VentaArchivo.h"
+
+1768316249 source:c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\ventamanager.cpp
+	<iostream>
+	"VentaManager.h"
+	"rlutil.h"
+
+1766515638 c:\utn franco\cuatrimestre 2\programacion\trabajo practico\cerrajeria final\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
 
